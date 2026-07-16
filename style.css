@@ -17,6 +17,16 @@ p {
     line-height: 1.5em;
 }
 
+nav ul li a{
+    color:black
+}
+
+ul.no-bullets {
+list-style-type: none; /* Remove bullets */
+padding: 0; /* Remove padding */
+margin: 0; /* Remove margins */
+}
+
 #zatemnenie1 {
         background: rgba(102,102, 102, 0.5);
         width: 100%;
@@ -51,13 +61,20 @@ p {
 .close {
         display: inline-block;
         border: 1px solid #03852e;
-        color: #03852e;
         padding: 12px;
         margin: 10px;
         text-decoration: none;
         background: #f2f2f2;
         font-size: 14pt;
         cursor:pointer;
+        position: absolute;
+        top: 400px;
+        left: 200px;
+	    right: 200px;
+	    bottom: 50px;
+        height: 30px;
+        color:black;
+        list-style-type:square;
       }
 
 .close:hover {
@@ -84,3 +101,15 @@ p {
 	bottom: 45px;
     color:#03852e;
    }
+
+   .numberone { 
+    color:black;list-style-type:square; 
+}
+
+    .centereditems {
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%; /* Optional */
+    }
