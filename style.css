@@ -1,0 +1,86 @@
+article
+{
+    width: 700px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+body {
+    color:black
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: Green;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+#zatemnenie1 {
+        background: rgba(102,102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+
+#okon1 {
+        width: 600px;
+        height: 400px;
+        text-align: center;
+        padding: 15px;
+        border: 3px solid #03852e;
+        border-radius: 10px;
+        color: #03852e;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        background: #fff;
+      }
+
+#zatemnenie1:target {
+    display: block;
+    }
+
+.close {
+        display: inline-block;
+        border: 1px solid #03852e;
+        color: #03852e;
+        padding: 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+
+.close:hover {
+        background: #e6e6ff;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.filterDiv {
+    Float: right;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 120px;
+    line-height: 30px;
+    margin: 2px;
+    display: none; /* Скрыто по умолчанию */
+}
+
+.topNubex {
+	position: fixed;
+	right: 45px;
+	bottom: 45px;
+    color:#03852e;
+   }
