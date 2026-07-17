@@ -1,3 +1,24 @@
+@media (max-width:768px){
+
+    article{
+        width:95%;
+        padding:15px;
+    }
+
+    body{
+        font-size:1rem;
+    }
+
+    .topNubex{
+        right:15px;
+        bottom:15px;
+    }
+
+    #okon1{
+        width:90%;
+    }
+}
+
 @font-face {
     font-family: 'freightround_probold';
     src: url('font/freightroundprobold-webfont.woff2') format('woff2'),
@@ -22,11 +43,16 @@
     font-style: normal;
 }
 
+*{
+    box-sizing:border-box;
+}
+
 article
 {
-    width: 700px;
+    max-width: 700px;
+    width: 90%;
     margin: auto;
-    background-color: white;
+    background: white;
     padding: 20px;
 }
 
@@ -34,7 +60,7 @@ body {
     color:black;
     font-size: 1.5em;
     font-family: 'freightround_probook', Times, serif;
-    background-color: Green;
+    background-color: #0b6623;
 }
 
 p {
@@ -55,7 +81,7 @@ margin: 0; /* Remove margins */
         background: rgba(102,102, 102, 0.5);
         width: 100%;
         height: 100%;
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         display: none;
@@ -111,7 +137,7 @@ margin: 0; /* Remove margins */
 }
 
 .filterDiv {
-    Float: right;
+    float: right;
     background-color: #2196F3;
     color: #ffffff;
     width: 120px;
@@ -127,53 +153,25 @@ margin: 0; /* Remove margins */
     color:#03852e;
    }
 
-   .numberone { 
-    color:black;list-style-type:square; 
+.topNubex:hover{
+    transform:scale(1.1);
 }
 
-    .centereditems {
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%; /* Optional */
-    }
-.textinpopup{
-  position: absolute;
-        top: 180px;
-        left: 550px;
-	    right: 200px;
-	    bottom: 50px;  
+.numberone{
+    color:black;
 }
 
-.textinpopup2{
-  position: absolute;
-        top: 210px;
-        left: 550px;
-	    right: 200px;
-	    bottom: 50px;  
+html{
+    scroll-behavior:smooth;
 }
 
-.textinpopup3{
-  position: absolute;
-        top: 240px;
-        left: 550px;
-	    right: 200px;
-	    bottom: 50px;  
+.centereditems{
+    display:block;
+    margin:auto;
+    text-align: center;
 }
 
-.textinpopup4{
-  position: absolute;
-        top: 270px;
-        left: 550px;
-	    right: 200px;
-	    bottom: 50px;  
-}
-
-.textinpopup5{
-  position: absolute;
-        top: 300px;
-        left: 550px;
-	    right: 200px;
-	    bottom: 50px;  
+.popup-link{
+    display:block;
+    margin:10px 0;
 }
