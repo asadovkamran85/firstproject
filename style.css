@@ -31,7 +31,7 @@ article
 }
 
 body {
-    color:black
+    color:black;
     font-size: 1.5em;
     font-family: 'freightround_probook', Times, serif;
     background-color: Green;
@@ -92,11 +92,12 @@ margin: 0; /* Remove margins */
         font-size: 14pt;
         cursor:pointer;
         position: absolute;
-        top: 400px;
-        left: 200px;
+        top: 480px;
+        left: 550px;
 	    right: 200px;
 	    bottom: 50px;
         height: 30px;
+        width: 200px;
         color:black;
         list-style-type:square;
       }
