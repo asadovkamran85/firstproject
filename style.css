@@ -138,3 +138,42 @@ margin: 0; /* Remove margins */
         margin-right: auto;
         width: 100%; /* Optional */
     }
+.textinpopup{
+  position: absolute;
+        top: 180px;
+        left: 550px;
+	    right: 200px;
+	    bottom: 50px;  
+}
+
+.textinpopup2{
+  position: absolute;
+        top: 210px;
+        left: 550px;
+	    right: 200px;
+	    bottom: 50px;  
+}
+
+.textinpopup3{
+  position: absolute;
+        top: 240px;
+        left: 550px;
+	    right: 200px;
+	    bottom: 50px;  
+}
+
+.textinpopup4{
+  position: absolute;
+        top: 270px;
+        left: 550px;
+	    right: 200px;
+	    bottom: 50px;  
+}
+
+.textinpopup5{
+  position: absolute;
+        top: 300px;
+        left: 550px;
+	    right: 200px;
+	    bottom: 50px;  
+}
