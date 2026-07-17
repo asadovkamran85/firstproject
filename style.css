@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'freightround_probold';
+    src: url('font/freightroundprobold-webfont.woff2') format('woff2'),
+         url('font/freightroundprobold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'freightround_probook';
+    src: url('font/freightroundprobook-webfont.woff2') format('woff2'),
+         url('font/freightroundprobook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'freightround_prolight';
+    src: url('font/freightroundprolight-webfont.woff2') format('woff2'),
+         url('font/freightroundprolight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 article
 {
     width: 700px;
@@ -9,7 +33,7 @@ article
 body {
     color:black
     font-size: 1.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'freightround_probook', Times, serif;
     background-color: Green;
 }
 
