@@ -174,4 +174,9 @@ html{
 .popup-link{
     display:block;
     margin:10px 0;
+    position: relative;
+    top: 200px;
+    left: 400px;
+	right: 200px;
+	bottom: 50px;
 }
