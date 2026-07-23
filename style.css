@@ -1,21 +1,42 @@
 @media (max-width:768px){
 
+    body{
+        font-size:16px;
+    }
+
     article{
         width:95%;
         padding:15px;
     }
 
-    body{
-        font-size:1rem;
+    h1{
+        font-size:2rem;
+    }
+
+    h2{
+        font-size:1.3rem;
+    }
+
+    .match-header{
+        flex-direction:column;
+        gap:8px;
+    }
+
+    .flag{
+        width:60px;
+    }
+
+    .date{
+        margin:0;
+    }
+
+    video{
+        width:100%;
     }
 
     .topNubex{
-        right:15px;
-        bottom:15px;
-    }
-
-    #okon1{
-        width:90%;
+        right:10px;
+        bottom:10px;
     }
 }
 
@@ -176,13 +197,23 @@ html{
 .match-header {
     display: flex;
     align-items: center;
-    gap: 15px; /* Space between images and text */
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
-.flag {
-    width: 90px;   /* Adjust as needed */
-    height: 50px;
+.match-header h2,
+.match-header p {
+    margin: 5px;
 }
+
+
+.flag {
+    width: clamp(40px, 10vw, 90px);
+    height: auto;
+}
+
 
 article p.date {
     font-weight: 700;
