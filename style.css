@@ -242,3 +242,8 @@ article p.date {
     font-style: italic;
     margin: 20px;
 }
+
+.flag-small {
+    width: 50px;
+    height: auto;
+}
