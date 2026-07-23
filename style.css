@@ -58,8 +58,9 @@ article
     max-width: 700px;
     width: 90%;
     margin: auto;
-    background: white;
+    background: rgb(214, 209, 209);
     padding: 20px;
+    border-radius: 20px;
 }
 
 body {
@@ -118,6 +119,9 @@ margin: 0; /* Remove margins */
     display:inline-block;
     margin-top:20px;
     position:static;
+    display:block;
+    margin:auto;
+    text-align: center;
 }
 .close:hover {
         background: #e6e6ff;
@@ -167,4 +171,21 @@ html{
     margin:15px 0;
     text-align:center;
     position:static;
+}
+
+.match-header {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between images and text */
+}
+
+.flag {
+    width: 90px;   /* Adjust as needed */
+    height: 50px;
+}
+
+article p.date {
+    font-weight: 700;
+    font-style: italic;
+    margin: 20px;
 }
